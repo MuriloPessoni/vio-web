@@ -65,6 +65,8 @@ function App() {
         <section className="card">
           <h2>Status da API com TAG - {statusApi?.projeto}</h2>
 
+          <h2>Murilo Pessoni Cândido 4 DSM</h2>
+
           <p>Back-end: {statusApi?.status || "Indisponível"}</p>
 
           <p>{statusApi?.mensagem}</p>
